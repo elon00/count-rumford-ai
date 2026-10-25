@@ -1,0 +1,9 @@
+[package]
+name = "count_rumford_ai"
+version = "1.0.0"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
+
+[addresses]
+count_rumford_ai = "0x0"
